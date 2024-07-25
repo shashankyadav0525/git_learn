@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment_Application</title>
+    <style>
+        .y{
+            background-color: aqua;
+        }
+        .s{
+            text-align: center;
+            font-size: 50px;
+            border: 12px 15px;
+            background-color: rgb(207, 150, 158);
+            font-weight: bold;
+            
+        }
+        input[type="text"],       
+        input[type="password"],
+        input[type="number"],
+        input[type="email"],
+        input[type="pincode"]
+
+        select{
+            width: 200px;
+            height: 15px;
+        }
+        input[type="Pay Now"]
+        select{
+            background-color: green;
+        }
+        
+        body{
+            margin: 15px 30px;
+            font-size: 15px;
+            padding: 10px;
+            background-color: antiquewhite;
+        }
+        
+        
+        div{
+            border: 200px;
+            color: rgb(15, 210, 73);
+            margin: 20px;
+            padding: 25px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <h1 class="s">payment form</h1><hr>
+        <div>
+        <h2>contact Information</h2><hr>
+        <p>Name:<input type="text"name="name"></p>
+        <p>
+            Gender:<input type="radio" name="gender" id=""> male <input type="radio" name="gender" id="" Female><br>
+        </p>
+        <p>email:<input type="email" id="email"></p  >
+        <p>Pincode:<input type="number" name="Pincode" id="Pincode"></p>
+        <h2>payment Information</h2><hr>
+        <p>
+            Card Type:
+            <select name="card_type" id="card_type">
+            <option value="">--Sellect a card_type---</option>
+            <option value="visa">Visa</option>
+            <option value="mastercard">Mastercard</option>
+            </select>
+        </p>
+        <p>
+            Card Number <input type="number" name="Card Number" id="Card Number" required>
+        </p>
+        <p>
+            Expiration Date: <input type="date" name="exp_date" id="exp_date">
+        </p>
+        <!--USING BUTTOM-->
+        <p>
+            <input type="submit" value="Pay Now">
+        </p>
+    </div>
+    </form>
+    
+</body>
+</html>

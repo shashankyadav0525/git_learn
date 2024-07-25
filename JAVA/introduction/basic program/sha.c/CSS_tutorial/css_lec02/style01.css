@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    font-size: 80px;
+    color: rgb(100, 24, 172);
+    text-decoration:overline underline;
+    font-family:cursive;
+}
+p{
+     font-size: 50;
+     text-align: center;
+     font-weight: bold; 
+     border: 2px dotted red;
+}
+p:hover{
+border: 7px solid rgb(43, 18, 67);
+background-color: rgb(65, 184, 65);
+font-size: 50px;
+text-emphasis-color: rgb(4, 255, 0);
+}
+.box1{
+    color: rgb(250, 215, 219);
+    background-color: rgb(80, 21, 34);
+}
+.box2{
+    color: rgb(138, 106, 18);
+}
+div{
+    display: inline-block;
+    width: 200px;
+}

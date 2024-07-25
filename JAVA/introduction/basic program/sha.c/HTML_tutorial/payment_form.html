@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment_Application</title>
+</head>
+<body>
+    <form action="">
+        <h1>payment form</h1>
+        <h2>contact Information</h2>
+        <p>Name:<input type="text"name="name"></p>
+        <p>
+            Gender:<input type="radio" name="gender" id=""> male <input type="radio" name="gender" id="" Female><br>
+        </p>
+        <p>email:<input type="email" id="email"></p>
+        <p>Pincode:<input type="number" name="Pincode" id="Pincode"></p>
+        <h2>payment Information</h2>
+        <p>
+            Card Type:
+            <select name="card_type" id="card_type">
+            <option value="">--Sellect a card_type---</option>
+            <option value="visa">Visa</option>
+            <option value="mastercard">Mastercard</option>
+            </select>
+        </p>
+        <p>
+            Card Number <input type="number" name="Card Number" id="Card Number" required>
+        </p>
+        <p>
+            Expiration Date: <input type="date" name="exp_date" id="exp_date">
+        </p>
+        <!--USING BUTTOM-->
+        <p>
+            <input type="submit" value="Pay Now">
+        </p>
+    </form>
+    
+</body>
+</html>
